@@ -12,6 +12,7 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="POST"
     onsubmit="onSubmit()">
       <fieldset>
         <legend>Personal information</legend>
@@ -116,7 +117,7 @@
               id="love-cats"
               value="yes"
             >
-            Yes
+              Yes
           </label>
 
           <label for="hate-cats">
@@ -126,7 +127,7 @@
               id="hate-cats"
               value="no"
             >
-            No
+              No
           </label>
         </div>
 
@@ -207,7 +208,7 @@
               value="yes"
               selected
             >
-            yes
+              yes
             </option>
             <option name="recommend" value="no">no</option>
           </select>
